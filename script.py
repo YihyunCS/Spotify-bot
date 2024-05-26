@@ -260,7 +260,7 @@ def main():
             click_element(ws, "/html/body/div[1]/main/main/section/div/form/button/span[1]")
 
             # Wait for page to load and enter password
-            type_text(ws, "/html/body/div[1]/main/main/section/div/form/div[1]/div[2]/div/section/div[2]/div/div[2]/div[1]/input", "Mario2005!")
+            type_text(ws, "/html/body/div[1]/main/main/section/div/form/div[1]/div[2]/div/section/div[2]/div/div[2]/div[1]/input", "Password2024!")
             time.sleep(1)
             click_element(ws, "/html/body/div[1]/main/main/section/div/form/div[2]/button/span[1]")
 
@@ -295,7 +295,7 @@ def main():
 
             # Wait and go to a specific album page
             time.sleep(10)
-            navigate_to_url(ws, "https://open.spotify.com/album/2rcpu1m9gwH5BDqw40AC4D")
+            navigate_to_url(ws, "(spotifyalbumURLhere")
             time.sleep(5)  # Adjust as needed based on network speed
 
             # Play the album
